@@ -11,8 +11,8 @@ import 'package:tuple/tuple.dart';
 
 alpaca.Context getContext() {
   // Add your paper API key ID
-  String apcaApiKeyId = "PKPRO7JXVLKFDZG0Q864";
-  String apcaApiSecretKey = "EyngG12OXYyDLxDmhhxrH2kDVgvFpTITjjgY5ELB";
+  String apcaApiKeyId = "";
+  String apcaApiSecretKey = "";
   return alpaca.createPaperContext(apcaApiKeyId, apcaApiSecretKey);
 }
 
