@@ -26,7 +26,7 @@ Future<Tuple2<int, List<Asset>?>> getAssets(Context context,
   if (assetClass != null) {
     params.putIfAbsent("asset_class", () => assetClass);
   }
-  if (status != null) {
+  if (exchange != null) {
     params.putIfAbsent("exchange", () => exchange);
   }
   http.Response response =
